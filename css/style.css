@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #313945;
+}
+
+body img {
+  max-width: 100%;
+}
+
+body header {
+  padding: 80px 0;
+}
+
+body header .logo {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+body header .logo img {
+  width: 100%;
+}
+
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body #hero {
+  padding: 50px 0;
+}
+
+body #hero .title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  color: #313945;
+}
+
+body #hero .slider {
+  margin-top: 50px;
+}
+
+body #hero .slider .slick-track {
+  display: flex !important;
+}
+
+body #hero .slider .slick-slide {
+  height: inherit !important;
+}
+
+body #hero .slider .slide {
+  padding: 20px;
+  height: 100%;
+}
+
+body #hero .card {
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body #hero .card-1 {
+  background-color: #EC6842
+}
+
+
+body #hero .card-2 {
+  background-color: #313945
+}
+
+body #hero .card:hover {
+  box-shadow: 2px 2px 18px 5px rgba(0, 0, 0, 0.1411764706);
+}
+
+body #hero .card.border {
+  border: 2px solid #BCBCBC;
+}
+
+body #hero .card.border,
+body #hero .card.border h3,
+body #hero .card.border .subHeading,
+body #hero .card.border .btn,
+body #hero .card.border .text {
+  color: #313945;
+}
+
+body #hero .card.border .btn:hover {
+  border-color: #313945;
+}
+
+
+body #hero .card h3 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+body #hero .card .subHeading {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+body #hero .card .btn {
+  display: flex;
+  margin-top: 60px;
+  color: #fff;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+  max-width: 140px;
+  transition: 0.2s ease;
+}
+
+body #hero .card .btn svg {
+  width: 20px;
+  transition: 0.2s ease;
+}
+
+body #hero .card .btn:hover {
+  border-color: #fff;
+}
+
+body #hero .card .btn:hover svg {
+  transform: translateX(5px);
+}
+
+body #hero .card .text {
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 60px;
+  line-height: 1.5;
+}
