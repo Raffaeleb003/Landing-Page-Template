@@ -65,11 +65,40 @@
             </div>
         </section>
         <section id="contact">
-                <div class="container">
-                    <div class="flex">
-                        <div class="left"></div>
+            <div class="container">
+                <div class="flex">
+                    <div class="left">
+                        <img src="./img/image-dot.svg" alt="an image of a fingerprint" class="fingerprint-img">
+                        <img src="./img/image-contact.jpg" alt="A photo of an old style telephone">
+                    </div>
+                    <div class="right">
+                        <h3 class="title">Kontakt</h3>
+                        <form action="#">
+                            <p class="label">E-Mail-Adresse</p>
+                            <input placeholder="Deine E-Mail-Adresse..." required type="email">
+                            <p class="label">Land <small>optional</small></p>
+                            <select name="countries" id="countrySelect">
+                                <option value="">Germany</option>
+                                <option value="">Austria</option>
+                                <option value="">Switzerland</option>
+                            </select>
+                            <p class="label">Nachricht</p>
+                            <textarea placeholder="Deine Nachricht..." required></textarea>
+                            <div class="soft">
+                                <p class="label">Datenschutz</p>
+                                <label>
+                                    <input required type="checkbox">
+                                    <span>Ich bin mit der verarbeitung meiner Daten einverstanden.</span>
+                                </label>
+                            </div>
+                            <button type="submit" class="submitBtn">
+                                Senden
+                                <img src="./img/icon-mail.svg" alt="mail icon">
+                            </button>
+                        </form>
                     </div>
                 </div>
+            </div>
         </section>
     </main>
 </body>
